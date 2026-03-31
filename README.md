@@ -15,7 +15,7 @@ recipe-website/
 ├── recipe5.html        ← Gulab Jamun
 ├── css/
 │   └── styles.css      ← All styles (single file)
-└── images/             ← Place downloaded images here (see below)
+└── images/             ← Downloaded images 
 ```
 
 ---
