@@ -15,38 +15,17 @@ recipe-website/
 ├── recipe5.html        ← Gulab Jamun
 ├── css/
 │   └── styles.css      ← All styles (single file)
-└── images/             ← Place downloaded images here (see below)
+└── images/             ← Downloaded images 
 ```
 
 ---
 
-## Images to Download
 
-The site currently uses Unsplash URLs (works online). For the submission ZIP,
-download these free images and save them in the `images/` folder:
 
-| File name to save as      | Download from                                                        |
-|---------------------------|----------------------------------------------------------------------|
-| `butter-chicken.jpg`      | https://unsplash.com/photos/ZqHCpxhMECo (search "butter chicken")   |
-| `dal-makhani.jpg`         | https://unsplash.com/photos/NzHRSLhc6Cs (search "dal makhani")      |
-| `biryani.jpg`             | https://unsplash.com/photos/ayz9rDIEFYg (search "biryani")          |
-| `palak-paneer.jpg`        | https://unsplash.com/photos/EaB4Ml7C7fE (search "palak paneer")     |
-| `gulab-jamun.jpg`         | https://unsplash.com/photos/mj0JxH2l-g0 (search "gulab jamun")      |
 
-All Unsplash images are free to use — no attribution required by their licence.
 
-After downloading, update the `src` attributes in each HTML file from the
-Unsplash URL to the local path, e.g.:
 
-```html
-<!-- before (online) -->
-<img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80" ... />
 
-<!-- after (local) -->
-<img src="images/butter-chicken.jpg" ... />
-```
-
----
 
 ## Features Implemented
 
@@ -66,12 +45,5 @@ Unsplash URL to the local path, e.g.:
 
 ---
 
-## Deployment (GitHub Pages)
-
-1. Push this folder to a GitHub repository.
-2. Go to **Settings → Pages → Source → main branch / root**.
-3. GitHub will provide a live URL like `https://username.github.io/recipe-website/`.
-
----
 
 *Made by Soumya — South Asian University*
