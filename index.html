@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rasoi — Indian Recipes by Soumya</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ── Navbar ── -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Rasoi</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="recipe1.html">Butter Chicken</a>
+      <a href="recipe2.html">Dal Makhani</a>
+      <a href="recipe3.html">Biryani</a>
+      <a href="recipe4.html">Palak Paneer</a>
+      <a href="recipe5.html">Gulab Jamun</a>
+    </div>
+    <label class="hamburger-label" for="menu-toggle" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </label>
+  </div>
+  <input type="checkbox" id="menu-toggle" />  <!--  moved outside nav-inner -->
+  
+  <div class="nav-drawer">
+    <a href="index.html" class="active">Home</a>
+    <a href="recipe1.html">Butter Chicken</a>
+    <a href="recipe2.html">Dal Makhani</a>
+    <a href="recipe3.html">Biryani</a>
+    <a href="recipe4.html">Palak Paneer</a>
+    <a href="recipe5.html">Gulab Jamun</a>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<section class="hero">
+  <span class="hero-eyebrow">Handpicked Indian Recipes</span>
+  <h1>Cook something <em>wonderful</em> today</h1>
+  <p class="hero-sub">Simple, authentic Indian recipes with clear instructions — straight from the heart of the subcontinent.</p>
+  <div class="search-wrap">
+    <input type="search" placeholder="Search recipes…" aria-label="Search recipes" />
+    <button type="submit">Search</button>
+  </div>
+</section>
+
+<div class="container">
+
+  <!-- Intro card -->
+  <div class="intro-card">
+    <span class="intro-glyph">🫕</span>
+    <div>
+      <h2>Welcome to Rasoi</h2>
+      <p><em>Rasoi</em> means <em>kitchen</em> in Hindi. A curated collection of classic Indian dishes — from rich North Indian curries to celebratory rice dishes and sweet desserts. Each recipe is written to be approachable whether you are cooking for the first time or just looking for a reliable reference. Made with care by <strong>Soumya</strong>.</p>
+    </div>
+  </div>
+
+  <!-- Category filter -->
+  <div class="ruled-label"><span>Browse by Category</span></div>
+  <div class="cat-strip">
+    <button class="cat-pill active">All</button>
+    <button class="cat-pill">Veg</button>
+    <button class="cat-pill">Non-Veg</button>
+    <button class="cat-pill">Desserts</button>
+  </div>
+
+  <!-- Recipe cards -->
+  <div class="ruled-label"><span>Featured Recipes</span></div>
+
+  <div class="cards-grid">
+
+    <!-- Butter Chicken -->
+    <article class="recipe-card">
+      <div class="card-img">
+        <img src="./images/Butter-chicken.jpg" alt="Butter Chicken in a bowl" loading="lazy" />
+        <span class="card-badge">Non-Veg</span>
+      </div>
+      <div class="card-body">
+        <h3>Butter Chicken</h3>
+        <p class="card-desc">Tender chicken in a velvety tomato-cream gravy. The iconic dish of North India — rich, fragrant, and deeply satisfying.</p>
+        <div class="meta-row">
+          <span class="meta-pill">⏱ 50 min</span>
+          <span class="meta-pill">Medium</span>
+        </div>
+        <a href="recipe1.html" class="btn">View Recipe</a>
+      </div>
+    </article>
+
+    <!-- Dal Makhani -->
+    <article class="recipe-card">
+      <div class="card-img">
+        <img src="./images/Dal-makhani.jpg" alt="Dal Makhani" loading="lazy" />
+        <span class="card-badge">Veg</span>
+      </div>
+      <div class="card-body">
+        <h3>Dal Makhani</h3>
+        <p class="card-desc">Slow-cooked black lentils in a buttery tomato sauce. Smoky, creamy, and comforting — best eaten with fresh naan.</p>
+        <div class="meta-row">
+          <span class="meta-pill">⏱ 8 hr</span>
+          <span class="meta-pill">Easy</span>
+        </div>
+        <a href="recipe2.html" class="btn">View Recipe</a>
+      </div>
+    </article>
+
+    <!-- Biryani -->
+    <article class="recipe-card">
+      <div class="card-img">
+        <img src="./images/Biriyani.jpeg" alt="Hyderabadi Biryani" loading="lazy" />
+        <span class="card-badge">Non-Veg</span>
+      </div>
+      <div class="card-body">
+        <h3>Hyderabadi Biryani</h3>
+        <p class="card-desc">Fragrant basmati rice layered with spiced chicken, slow-cooked in the dum style. A festive masterpiece.</p>
+        <div class="meta-row">
+          <span class="meta-pill">⏱ 1.5 hr</span>
+          <span class="meta-pill">Hard</span>
+        </div>
+        <a href="recipe3.html" class="btn">View Recipe</a>
+      </div>
+    </article>
+
+    <!-- Palak Paneer -->
+    <article class="recipe-card">
+      <div class="card-img">
+        <img src="./images/palak paneer.jpg" alt="Palak Paneer" loading="lazy" />
+        <span class="card-badge">Veg</span>
+      </div>
+      <div class="card-body">
+        <h3>Palak Paneer</h3>
+        <p class="card-desc">Fresh cottage cheese cubes in a smooth spiced spinach gravy. Nutritious, vibrantly green, and ready in under 40 minutes.</p>
+        <div class="meta-row">
+          <span class="meta-pill">⏱ 35 min</span>
+          <span class="meta-pill">Easy</span>
+        </div>
+        <a href="recipe4.html" class="btn">View Recipe</a>
+      </div>
+    </article>
+
+    <!-- Gulab Jamun -->
+    <article class="recipe-card">
+      <div class="card-img">
+        <img src="./images/Gulab Jamun .jpg" alt="Gulab Jamun" loading="lazy" />
+        <span class="card-badge">Dessert</span>
+      </div>
+      <div class="card-body">
+        <h3>Gulab Jamun</h3>
+        <p class="card-desc">Soft milk-solid dumplings soaked in rose-cardamom sugar syrup. India's most beloved dessert — served warm at every celebration.</p>
+        <div class="meta-row">
+          <span class="meta-pill">⏱ 45 min</span>
+          <span class="meta-pill">Medium</span>
+        </div>
+        <a href="recipe5.html" class="btn">View Recipe</a>
+      </div>
+    </article>
+
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">Rasoi</div>
+    <nav class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="recipe1.html">Butter Chicken</a>
+      <a href="recipe2.html">Dal Makhani</a>
+      <a href="recipe3.html">Biryani</a>
+      <a href="recipe4.html">Palak Paneer</a>
+      <a href="recipe5.html">Gulab Jamun</a>
+    </nav>
+    <div class="footer-rule"></div>
+    <p class="footer-copy">
+      Made by <strong style="color:#FF3008">Soumya</strong> &nbsp;·&nbsp;
+      South Asian University &nbsp;·&nbsp;
+      Web Development Assignment &nbsp;·&nbsp;
+      <a href="https://github.com/soumyax007/Rasoi.git" target="_blank" rel="noopener">GitHub Repo</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
